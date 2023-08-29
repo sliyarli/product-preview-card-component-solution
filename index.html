@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- STYLE FILES -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/flexbox-utilities.css" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body class="d-flex flex-justify-center flex-items-center">
+    <main>
+      <div class="product-card-container">
+        <div class="product-card-item d-flex">
+          <div class="product-card-image"></div>
+          <div class="product-card-info d-flex flex-column">
+            <h5 class="product-card-name">perfume</h5>
+            <h1 class="product-card-heading">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+            <p class="product-card-desc">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div
+              class="product-card-price-container d-flex flex-items-center flex-justify-between"
+            >
+              <h2 class="product-card-current-price">$149.99</h2>
+              <small class="product-card-old-price">$169.99</small>
+            </div>
+            <button
+              class="product-buy-button d-flex flex-justify-center flex-items-center"
+            >
+              <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                  fill="#FFF"
+                />
+              </svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

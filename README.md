@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Product Preview Card](../screenshot.png)
+![Product Preview Card](./screenshot.png)
 
 ### Links
 
